@@ -46,7 +46,7 @@ for num in range(501,511):
 Str+=a_list[x3+2].get("topic")+'\n' 
 Str+="***********************************************************************"+'\n' 
 print(Str)
-f = open("C:/Users/Morris/Desktop/interest7.txt", 'w+',encoding='UTF-8')
+f = open("C:/Users/xxx/Desktop/interest7.txt", 'w+',encoding='UTF-8')
 f.write(Str)
 #print(Str,file=f)
 # a_list = soup.findAll('div',attrs={'topic':True})
